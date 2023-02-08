@@ -1,6 +1,6 @@
 #include "lib/LOETest.hpp"
 
-int Main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
 	GameLOE game;
 	game.init();
 	game.mainLoop();

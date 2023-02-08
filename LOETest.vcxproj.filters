@@ -15,15 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LOETest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lib\LOETest.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\fps_lim.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
